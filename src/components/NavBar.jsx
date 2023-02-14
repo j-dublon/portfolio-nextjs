@@ -31,7 +31,7 @@ export default function NavBar() {
         <Link href={"/Portfolio"} className={styles.rightNav__item}>
           Portfolio
         </Link>
-        <Link href={"/Info"} className={styles.rightNav__item}>
+        <Link href={"/About"} className={styles.rightNav__item}>
           About
         </Link>
         <Link href={"/Contact"} className={styles.rightNav__item}>
