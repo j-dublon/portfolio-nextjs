@@ -8,7 +8,7 @@ export default function NavBar() {
     <div className={styles.navigation}>
       <nav className={styles.leftNav}>
         <a
-          href="https://User.com/j-dublon"
+          href="https://github.com/j-dublon"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.leftNav__item}

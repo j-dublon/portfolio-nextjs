@@ -30,3 +30,7 @@ ul {
   margin: auto;
   text-align: center;
 }
+
+.component {
+  position: relative;
+}

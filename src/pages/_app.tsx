@@ -18,9 +18,12 @@ export default function App({ Component, pageProps }: AppProps) {
         alt="background trees"
         fill
         style={{ objectFit: "cover" }}
+        quality={100}
       />
-      <NavBar />
-      <Component {...pageProps} />
+      <div className="component">
+        <NavBar />
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }
