@@ -9,7 +9,7 @@ export default function Home() {
       <main className={styles.home}>
         <h1 className={styles.home__title}>Hello, my name is Jodi Dublon.</h1>
         <h1 className={styles.home__title}>I am a Software Engineer.</h1>
-        <Link href={"/portfolio"} className={styles.home__link}>
+        <Link href={"/Portfolio"} className={styles.home__link}>
           View my work <FontAwesomeIcon icon={faCircleArrowRight} />
         </Link>
       </main>

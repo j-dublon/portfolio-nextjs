@@ -28,13 +28,13 @@ export default function NavBar() {
         <Link href={"/"} className={styles.rightNav__item}>
           Welcome
         </Link>
-        <Link href={"/portfolio"} className={styles.rightNav__item}>
+        <Link href={"/Portfolio"} className={styles.rightNav__item}>
           Portfolio
         </Link>
-        <Link href={"/info"} className={styles.rightNav__item}>
+        <Link href={"/Info"} className={styles.rightNav__item}>
           About
         </Link>
-        <Link href={"/contact"} className={styles.rightNav__item}>
+        <Link href={"/Contact"} className={styles.rightNav__item}>
           Contact
         </Link>
       </nav>
