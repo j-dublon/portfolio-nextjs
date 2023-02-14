@@ -13,13 +13,15 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>J Dublon</title>
       </Head>
-      <Image
-        src="/images/background.png"
-        alt="background trees"
-        fill
-        style={{ objectFit: "cover" }}
-        quality={100}
-      />
+      <div className="background">
+        <Image
+          src="/images/background.png"
+          alt="background trees"
+          fill
+          style={{ objectFit: "cover", backgroundAttachment: "fixed" }}
+          quality={100}
+        />
+      </div>
       <div className="component">
         <NavBar />
         <Component {...pageProps} />
